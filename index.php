@@ -10,32 +10,16 @@
 </head>
 <body> 
 <?php
-include "nav2.php";
+include "nav.php";
 ?>
 <h1>Vítáme vás, ještě nevíme kam</h1>
 
-<div class="parent">
-    <div class="child">
-    <img src="img/trip2.jpg" alt="Denim Jeans" style="max-width: 300px">
-    <h1>Paříž</h1>
-    <p class="price">$19.99</p>
-    <p>tohle bude možná výlet </p>
-    </div>
 
-    <div class="child reveal">
-    <img src="img/trip2.jpg" alt="Denim Jeans" style="max-width: 300px">
-    <h1>Výlet snů</h1>
-    <p class="price">$19.99</p>
-    <p>nebo něco jiného</p>
-    </div>
+<?php
 
-    <div class="child">
-    <img src="img/trip2.jpg" alt="Denim Jeans" style="max-width: 300px">
-    <h1>Další výlet</h1>
-    <p class="price">$19.99</p>
-    <p>další výlet někam</p>
-    </div>
-</div>
+include 'product.php';
+
+?>
 
 <script>
     function reveal() {
